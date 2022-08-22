@@ -71,10 +71,14 @@ span{
   box-sizing: border-box;
   border-radius: 20px;
   width: 80px;
-  box-shadow: ;
+  box-shadow: rgba(0, 5, 10, 0.856) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  
 }
 .left-bar img{
   padding: 20px;
+  color: #fff;
+  margin-bottom: 50px;
+  fill: #fff;
 }
 .right-bar{
   width: 1000px;
