@@ -78,6 +78,7 @@ span{
   padding: 20px;
   color: #fff;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .right-bar{
   width: 1000px;
@@ -102,10 +103,9 @@ span{
 .food img{
   border-radius: 2px;
 }
-.left-bar img:hover{
+
+.left-bar .active img{
   background-color:#F1D5BB ;
-  cursor: pointer;
-  color: #000;
 }
 .food p{
   text-align: center;
