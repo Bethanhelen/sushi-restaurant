@@ -80,6 +80,9 @@ span{
   margin-bottom: 50px;
   cursor: pointer;
 }
+.left-bar .active img{
+  background-color: #F1D5BB;
+}
 .right-bar{
   width: 1000px;
 }
