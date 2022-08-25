@@ -80,7 +80,7 @@ span{
   margin-bottom: 50px;
   cursor: pointer;
 }
-.left-bar .active img{
+.left-bar a.active img{
   background-color: #F1D5BB;
 }
 .right-bar{
@@ -107,9 +107,6 @@ span{
   border-radius: 2px;
 }
 
-.left-bar .active img{
-  background-color:#F1D5BB ;
-}
 .food p{
   text-align: center;
   font-family: 'Mulish';
