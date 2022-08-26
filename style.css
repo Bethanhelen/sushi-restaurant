@@ -1,183 +1,298 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-main{
-  background:url("restaurant 1.png");
-  background-repeat: no-repeat;
-  background-size: center;
-  height:100vh;
-  overflow: hidden;
-  font-family: 'Mulish';
-}
-.head{
-  text-align: center;
-  margin-top: 220px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 75px;
-  color: #fff;
-}
-span{
-  font-weight:800;
-}
-.para{
-	width: 822px;
-  text-align: center;
-  font-size:25px;
-  font-weight: 400;
-  line-height:31px;
-  color: #fff;
-  margin: auto;
-  padding-top: 15px;
-}
-.button{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				margin-top: 40px;
-}
-.button a{
-  list-style: none;
-  text-decoration: none;
-  color: #000;
-  background-color: #fff;
-  margin-right: 10px;
-  line-height: 38px;
-  font-size: 20px;
-  font-family: 'Mulish'
-  font-weight:300;
-  font-style: normal;
-  padding: 5px 50px;
-  border-radius: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.menu{
-  display: flex;
-  margin-top:50px;
-  margin-left: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.left-bar{
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  margin:0px 40px;
-  box-sizing: border-box;
-  border-radius: 20px;
-  width: 80px;
-  box-shadow: rgba(0, 5, 10, 0.856) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-  
-}
-.left-bar img{
-  padding: 20px;
-  color: #fff;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-.left-bar a.active img{
-  background-color: #F1D5BB;
-}
-.right-bar{
-  width: 1000px;
-}
-.right-bar .heading{
-  text-transform: uppercase;
-  font-family: 'Mulish';
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 63px;
-  border-bottom: 3px solid #F1D5BB;
-  width: 320px;
-  margin-bottom: 30px;
-}
-.right-bar .heading-cart{
-  text-transform: uppercase;
-  font-family: 'Mulish';
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 63px;
-  border-bottom: 3px solid #F1D5BB;
-  width: 140px;
-  margin-bottom: 30px;
-}
-.food{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
-  grid-auto-flow: row;
-}
-.food img{
-  border-radius: 2px;
+main {
+    background: url("restaurant 1.png");
+    background-repeat: no-repeat;
+    background-size: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Mulish';
 }
 
-.food p{
-  text-align: center;
-  font-family: 'Mulish';
-  font-style:normal;
-  font-weight: 600;
-  line-height: 25px;
+.head {
+    text-align: center;
+    margin-top: 220px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    color: #fff;
 }
-.load{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 30px;
+
+span {
+    font-weight: 800;
 }
-button{
-  background-color: #000;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 2px;
-  padding: 10px 25px;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 25px;
-  font-style: normal;
-  cursor: pointer;
+
+.para {
+    width: 822px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #fff;
+    margin: auto;
+    padding-top: 15px;
 }
-footer{
-  margin: 50px 0px;
-  margin-left: 20%;
-  
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
-footer p{
-  font-size: 15px;
-  line-height: 19px;
-  font-weight: 600;
-  font-style: normal;
-  font-family: 'Mulish';
+
+.button a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    margin-right: 10px;
+    line-height: 38px;
+    font-size: 20px;
+    font-family: 'Mulish' font-weight: 300;
+    font-style: normal;
+    padding: 5px 50px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
+
+.menu {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.left-bar {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 80px;
+    box-shadow: rgba(0, 5, 10, 0.856) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.left-bar img {
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.left-bar a.active img {
+    background-color: #F1D5BB;
+}
+
+.right-bar {
+    width: 1000px;
+}
+
+.right-bar .heading {
+    text-transform: uppercase;
+    font-family: 'Mulish';
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    border-bottom: 3px solid #F1D5BB;
+    width: 320px;
+    margin-bottom: 30px;
+}
+
+.food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-auto-flow: row;
+}
+
+.food img {
+    border-radius: 2px;
+}
+
+.food p {
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #000;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+footer {
+    margin: 50px 0px;
+    margin-left: 20%;
+}
+
+footer p {
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Mulish';
+}
+
 
 /* cart page */
-.cart-left{
-  background-color: #F1D5BB; 
-  padding: 30px;
+
+.right-bar .heading-cart {
+    text-transform: uppercase;
+    font-family: 'Mulish';
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 63px;
+    border-bottom: 3px solid #F1D5BB;
+    width: 140px;
+    margin-bottom: 30px;
 }
-.smashed{
-  display: flex;
-  width: 400px;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 20px;
+
+.cart-left {
+    background-color: #F1D5BB;
+    padding: 30px;
+    width: 443px;
+    height: 590px;
 }
-span.number{
-  background-color: #fff;
-  padding: 5px 10px;
+
+.smashed {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
 }
-.cart-right{
-  width: 300px;
+
+.smashed.ellipse {
+    width: 90px;
+    height: 90px;
 }
-.cart-top{
-  background-color: #F1D5BB; 
+
+span.number {
+    background-color: #fff;
+    padding: 5px 10px;
 }
-.cart-bottom{
-  border: 1px solid #F1D5BB;
+
+.cart-right {
+    width: 443px;
+    height: 286px;
+}
+
+.cart-top {
+    background-color: #F1D5BB;
+}
+
+.cart-top h3,
+.cart-bottom h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 30px;
+}
+
+.cart-top h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    padding: 10px 30px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.confirm button {
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    font-style: normal;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-family: 'Mulish';
+}
+
+.cart-bottom {
+    border: 1px solid #F1D5BB;
+}
+
+.cart-bottom input {
+    width: 365px;
+    height: 78px;
+    margin-left: 30px;
+    border: 1px solid #F1D5BB;
+    font-family: 'Mulish';
+    text-transform: lowercase;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 15px;
+}
+
+.cart-bottom input:focus {
+    outline: none;
+}
+
+.apply {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 166px;
+    height: 78px;
+}
+
+.apply button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 2px;
+    padding: 10px 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    font-style: normal;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-family: 'Mulish';
 }
